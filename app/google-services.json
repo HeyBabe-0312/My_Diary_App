@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781211372885",
+    "project_id": "diaryhominhhieu",
+    "storage_bucket": "diaryhominhhieu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781211372885:android:a70c75a57dd9067531b3dc",
+        "android_client_info": {
+          "package_name": "com.example.note_notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781211372885-gn0fc15lq28q0pig33t8sf4tj9ae91p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi65ZiUpLNR5ZufMW1AU9KEIKlwFcPwlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781211372885-gn0fc15lq28q0pig33t8sf4tj9ae91p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

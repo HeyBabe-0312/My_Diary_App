@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_Title"
+        android:layout_width="273dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#FF0000"
+        android:foregroundTint="#FFFFFF"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Nhập email cần khôi phục "
+        android:textColor="#FF0000"
+        android:textColorHint="#571616"
+        app:autoSizeTextType="uniform"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/email_forgot"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Nhập địa chỉ email"
+        android:textSize="16dp"
+        android:inputType="textEmailAddress"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_forgot"
+        android:text="Xác Nhận"
+        android:textColor="@color/white"
+        android:layout_gravity="center"></Button>
+
+</LinearLayout>
